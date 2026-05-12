@@ -243,4 +243,14 @@ box-shadow: 0 0 25px #ac2a2a;
         width: 25vh;
         margin-top: 3rem;
     }
+    .home-img {
+        width: 90%;           /* вместо 25vh — ширина 70% от родителя */
+        max-width: 300px;     /* чтобы не была слишком большой на планшетах */
+        margin: 0 auto;       /* центрируем */
+    }
+    
+    .home-img img {
+        width: 100%;          /* картинка заполнит контейнер */
+        height: auto;         /* сохраняет пропорции */
+    }
 }
